@@ -1,0 +1,41 @@
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormLifes.resources
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormItemRanks.resources
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.Forms.FormPotion.resources
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormResources.resources
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormBooks.resources
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormAccessories.resources
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormClothes.resources
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormElixirs.resources
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormPasses.resources
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormWeapons.resources
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.Properties.Icons.resources
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.Properties.Resources.resources
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.csproj.GenerateResource.Cache
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\bin\Debug\ItemEditor.exe.config
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.exe
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.pdb
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\bin\Debug\ItemEditor.exe
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\bin\Debug\ItemEditor.pdb
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.csprojResolveAssemblyReference.cache
+C:\Users\Bra\Desktop\Item_Edit\ItemEditor\obj\Debug\ItemEditor.frmMain.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\bin\Debug\ItemEditor.exe.config
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\bin\Debug\ItemEditor.exe
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\bin\Debug\ItemEditor.pdb
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.csproj.AssemblyReference.cache
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormLifes.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormItemRanks.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.Forms.FormPotion.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormResources.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormBooks.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormAccessories.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormClothes.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormElixirs.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.frmMain.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormPasses.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.FormWeapons.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.Properties.Icons.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.Properties.Resources.resources
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.csproj.GenerateResource.cache
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.csproj.CoreCompileInputs.cache
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.exe
+E:\luu tri o ssd game\LUNG TUNG\Item_Edit\ItemEditor\obj\Debug\ItemEditor.pdb

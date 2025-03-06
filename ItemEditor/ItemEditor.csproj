@@ -1,0 +1,429 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5987478B-6520-4142-8F82-14FA29959E35}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ItemEditor</RootNamespace>
+    <AssemblyName>ItemEditor</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\Public\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>true</Prefer32Bit>
+    <CodeAnalysisIgnoreGeneratedCode>false</CodeAnalysisIgnoreGeneratedCode>
+    <CodeAnalysisRuleSet>MixedRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>cltb.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>82101211958A7F35BC6BC4A725D3AC87ED19EFAF</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>
+    </ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>false</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup>
+    <AssemblyOriginatorKeyFile>
+    </AssemblyOriginatorKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <PropertyGroup>
+    <StartupObject>ItemEditor.Program</StartupObject>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Forms\FormLifes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormLifes.Designer.cs">
+      <DependentUpon>FormLifes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormItemRanks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormItemRanks.Designer.cs">
+      <DependentUpon>FormItemRanks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPotion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPotion.Designer.cs">
+      <DependentUpon>FormPotion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormResources.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormResources.Designer.cs">
+      <DependentUpon>FormResources.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormBooks.Designer.cs">
+      <DependentUpon>FormBooks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormAccessories.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormAccessories.Designer.cs">
+      <DependentUpon>FormAccessories.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormClothes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormClothes.Designer.cs">
+      <DependentUpon>FormClothes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormElixirs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormElixirs.Designer.cs">
+      <DependentUpon>FormElixirs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormPasses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormPasses.Designer.cs">
+      <DependentUpon>FormPasses.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\FormWeapons.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\FormWeapons.Designer.cs">
+      <DependentUpon>FormWeapons.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataItemRead\IItem.cs" />
+    <Compile Include="DataItemRead\ItemAccessory.cs" />
+    <Compile Include="DataItemRead\ItemBase.cs" />
+    <Compile Include="DataItemRead\ItemBook.cs" />
+    <Compile Include="DataItemRead\ItemBox.cs" />
+    <Compile Include="DataItemRead\ItemBoxKey.cs" />
+    <Compile Include="DataItemRead\ItemCloth.cs" />
+    <Compile Include="DataItemRead\ItemConsuming.cs" />
+    <Compile Include="DataItemRead\ItemCounteract.cs" />
+    <Compile Include="DataItemRead\ItemElixir.cs" />
+    <Compile Include="DataItemRead\ItemLife.cs" />
+    <Compile Include="DataItemRead\ItemMoney.cs" />
+    <Compile Include="DataItemRead\ItemMusic.cs" />
+    <Compile Include="DataItemRead\ItemParser.cs" />
+    <Compile Include="DataItemRead\ItemPass.cs" />
+    <Compile Include="DataItemRead\ItemPotion.cs" />
+    <Compile Include="DataItemRead\ItemQuest.cs" />
+    <Compile Include="DataItemRead\ItemResource.cs" />
+    <Compile Include="DataItemRead\ItemSocket.cs" />
+    <Compile Include="DataItemRead\ItemTableHeader.cs" />
+    <Compile Include="DataItemRead\ItemWeapon.cs" />
+    <Compile Include="DataItemRead\Map.cs" />
+    <Compile Include="DataItemRead\NdHelper.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Icons.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Icons.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="DataItemRead\XsdManager.cs" />
+    <Compile Include="XStringDatabase\Exception.cs" />
+    <Compile Include="XStringDatabase\Section.cs" />
+    <Compile Include="XStringDatabase\SectionCollection.cs" />
+    <Compile Include="XStringDatabase\TextEncrypt.cs" />
+    <Compile Include="XStringDatabase\Xsd.cs" />
+    <Compile Include="XStringDatabase\XsdFile.cs" />
+    <Compile Include="XStringDatabase\XString.cs" />
+    <Compile Include="XStringDatabase\XStringCollection.cs" />
+    <EmbeddedResource Include="Forms\FormLifes.resx">
+      <DependentUpon>FormLifes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormItemRanks.resx">
+      <DependentUpon>FormItemRanks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPotion.resx">
+      <DependentUpon>FormPotion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormResources.resx">
+      <DependentUpon>FormResources.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormBooks.resx">
+      <DependentUpon>FormBooks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormAccessories.resx">
+      <DependentUpon>FormAccessories.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormClothes.resx">
+      <DependentUpon>FormClothes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormElixirs.resx">
+      <DependentUpon>FormElixirs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormPasses.resx">
+      <DependentUpon>FormPasses.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\FormWeapons.resx">
+      <DependentUpon>FormWeapons.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Icons.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Icons.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <None Include="bin\Debug\app.publish\Application Files\ItemTableReader_1_0_0_1\favicon.ico.deploy" />
+    <None Include="bin\Debug\app.publish\Application Files\ItemTableReader_1_0_0_1\ItemTableReader.exe.config.deploy" />
+    <None Include="bin\Debug\app.publish\Application Files\ItemTableReader_1_0_0_1\ItemTableReader.exe.deploy" />
+    <None Include="bin\Debug\app.publish\Application Files\ItemTableReader_1_0_0_1\ItemTableReader.exe.manifest" />
+    <None Include="bin\Debug\app.publish\Application Files\ItemTableReader_1_0_0_1\NdHelper.dll.deploy" />
+    <None Include="bin\Debug\app.publish\ItemTableReader.application" />
+    <None Include="bin\Debug\Debug.zip" />
+    <None Include="bin\Debug\ItemEditor.exe.config" />
+    <None Include="bin\Debug\ItemEditor.vshost.exe.config" />
+    <None Include="bin\Debug\ItemTableReader.application" />
+    <None Include="bin\Debug\ItemTableReader.exe.config" />
+    <None Include="bin\Debug\ItemTableReader.exe.manifest" />
+    <None Include="bin\Debug\ItemTableReader.vshost.application" />
+    <None Include="bin\Debug\ItemTableReader.vshost.exe.config" />
+    <None Include="bin\Debug\ItemTableReader.vshost.exe.manifest" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\DataSources\Effect.datasource" />
+    <None Include="Properties\DataSources\ItemBase.datasource" />
+    <None Include="Properties\DataSources\ItemBook.datasource" />
+    <None Include="Properties\DataSources\ItemCloth.datasource" />
+    <None Include="Properties\DataSources\ItemWeapon1.datasource" />
+    <None Include="Properties\DataSources\Special.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Item_Wea_02.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Item_Wea_03.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Item_Wea_04.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Item_Wea_05.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Item_Wea_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Item_Wea_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Item_Wea_12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Item_Wea_13.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Item_Wea_14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Item_Wea_023.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item_wea_w22.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\poles.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sabers.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swords.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AXE.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BRACERS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DAGGER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GLOVES.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\POLEARM.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SABER.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SPEAR.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\STAFF.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SWORD.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WHEELS.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\elixirs.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplements.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACCESSORIES1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACCESSORIES2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACCESSORIES3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACCESSORIES4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACCESSORIES5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACCESSORIES6.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ACCESSORIES7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\app.publish\ItemTableReader.exe" />
+    <Content Include="bin\Debug\app.publish\setup.exe" />
+    <Content Include="bin\Debug\ItemEditor.vshost.exe" />
+    <Content Include="bin\Debug\ItemTableReader.exe" />
+    <Content Include="bin\Debug\ItemTableReader.pdb" />
+    <Content Include="bin\Debug\NdHelper.dll" />
+    <Content Include="bin\Debug\NdHelper.pdb" />
+    <Content Include="cltb.ico" />
+    <Content Include="favicon.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\ItemTableReader\v14\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
